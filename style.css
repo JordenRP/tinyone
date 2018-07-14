@@ -1,0 +1,330 @@
+body {
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.press {
+ 	background-color: #fcdb00;
+ 	background-size: cover;
+	background-position: center;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.burger {
+	display: none;
+	height: 4px;
+	width: 30px;
+	background-color: black;
+	position: relative;
+}
+
+.burger::before {
+	content: '';
+	height: 4px;
+	width: 30px;
+	background-color: black;
+	position: absolute;
+	display: block;
+	top: 8px;
+}
+
+.burger::after {
+	content: '';
+	height: 4px;
+	width: 30px;
+	background-color: black;
+	position: absolute;
+	display: block;
+	top: 16px;
+}
+
+.header {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+}
+
+nav {
+	width: 65%;
+	text-align: right;
+	font-weight: bold;
+}
+
+.logo {
+	width: 30%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	padding-right: 80px;
+}
+
+li:last-child {
+	padding-right: 0;
+}
+
+.logo p {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.logo img {
+	float: left;
+	margin-right: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+article {
+	width: 45%;
+}
+
+.art {
+  width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.art img {
+	padding-right: 5%;
+}
+
+.icons {
+	margin-top: 50px;
+	display: flex;
+}
+
+.art h2 {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.icons img {
+	margin-right: 20px;
+}
+
+.sub-title {
+	font-size: 20px;
+}
+
+.bullets {
+	display: flex;
+	margin-left: 50%;
+	margin-bottom: 50px;
+}
+
+.bullet {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 14px;
+  height: 14px;
+	margin-right: 5px;
+}
+.active {
+	background-color: rgb(255, 255, 255);
+}
+
+.description {
+	color: #555555;
+}
+
+.features {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 130vh;
+	color: #fff;
+}
+
+.wrapper-features {
+	width:  70%;
+	margin: 0 auto;
+}
+
+.header-features {
+	margin-top: 120px;
+	color: black;
+	text-align: center;
+}
+
+.items-features {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	display: flex;
+	margin-top: 100px;
+}
+
+.img-features {
+	text-align: center;
+	width: 100px;
+}
+
+.img-features img{
+	margin: 0;
+	display: inline-block;
+}
+
+.text-features {
+	width: 200px;
+	height: 120px;
+}
+
+.text-features h3 {
+	margin-top: 0;
+	color: black;
+	font-size: 22px;
+}
+
+.text-features p {
+	color: #898989;
+}
+
+.contact {
+	width: 100%;
+	min-height: 130vh;
+	background-color: #000;
+}
+
+.contact-wrapper {
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.title-contact {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.title-contact h2 {
+	color: yellow;
+	font-weight: bold;
+}
+
+.title-contact p {
+	color: #898989;
+	font-size: 22px;
+}
+
+input {
+	border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 580px;
+  height: 50px;
+	margin-right: 20px;
+}
+
+button {
+  border-style: solid;
+  border-radius: 4px;
+  background-color: yellow;
+  width: 130px;
+  height: 52px;
+	border: none;
+	font-weight: bold;
+}
+
+.form,
+form {
+	display: flex;
+}
+
+.form {
+	margin-top: 45px;
+}
+
+.social-net {
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social {
+	 background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+		margin-right: 30px;
+}
+
+.face {
+	width: 36px;
+	height: 36px;
+	background-position: -5px -5px;
+}
+
+.twit {
+	width: 36px;
+	height: 36px;
+	background-position: -51px -51px;
+}
+
+.google {
+	width: 36px;
+	height: 36px;
+	background-position: -51px -5px;
+}
+
+.pint {
+	width: 36px;
+	height: 36px;
+	background-position: -5px -51px;
+
+}
+
+.map-site {
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 130px;
+	flex-wrap: wrap;
+}
+
+.adress {
+	display: flex;
+	flex-direction: column;
+}
+
+.adress p {
+	color: #fff;
+}
+
+.adress a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.map {
+	color: #fff;
+	margin-right: 20px;
+}
+
+.map p {
+	margin: 0;
+}
+
+::-webkit-input-placeholder { color: #898989; padding-left: 24px; }
+::-moz-placeholder          { color: #898989; padding-left: 24px;} /* Firefox 19+ */
+:-moz-placeholder           { color: #898989; padding-left: 24px;} /* Firefox 18- */
+:-ms-input-placeholder      { color: #898989; padding-left: 24px;}
